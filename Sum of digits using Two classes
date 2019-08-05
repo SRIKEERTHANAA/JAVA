@@ -1,0 +1,23 @@
+import java.util.*;
+public class MyClass{
+ 
+public static void main(String args[])
+{
+  Scanner sc = new Scanner(System.in);
+  int x= sc.nextInt();
+  A ob=new A();
+  System.out.println(ob.sod(x));
+}
+}
+class A{
+int sod(int num){
+  int sum=0,n;
+  while(num!=0)
+{
+   n=num%10;
+   sum=sum+n;
+   num=num/10;
+}
+ return sum;
+}
+}
