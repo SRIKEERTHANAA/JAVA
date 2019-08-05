@@ -1,0 +1,18 @@
+import java.util.*;
+public class Ex2{
+public static void main(String args[])
+{
+  char inp1,inp2;
+  Scanner sc=new Scanner(System.in);
+  inp1=sc.next().charAt(0);
+  inp2=sc.next().charAt(0);
+  if(inp1>inp2)
+  {
+    System.out.println(inp2+","+inp1);
+  }
+ else
+{ 
+    System.out.println(inp1+","+inp2);
+}
+}
+}
