@@ -1,0 +1,16 @@
+import java.util.*;
+public class alpha{
+public static void main(String args[])
+{
+ Scanner sc=new Scanner(System.in);
+ char inp=sc.next().charAt(0);
+ if(inp>=97 && inp<=122)
+ {
+   System.out.println(Character.toUpperCase(inp));
+}
+else
+{
+System.out.println(Character.toLowerCase(inp));
+}
+}
+}
